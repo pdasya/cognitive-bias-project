@@ -3,6 +3,5 @@
 
 This is the first project in the layout profession. The task to recreate the site from the layout.
 
-![Логотип проекта](/src/images/1.png)
-[Ссылка на сайт проекта](https://hexlet-designer-project-lvl1-pdasya.surge.sh/)
+![Логотип проекта](https://hexlet-designer-project-lvl1-pdasya.surge.sh/)
 
