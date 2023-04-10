@@ -197,7 +197,7 @@ header {
 
   border-width: 0;
 
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 /* SECTION-2 */
@@ -313,7 +313,7 @@ header {
 }
 
 .img-section {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .sup-title {
@@ -346,10 +346,6 @@ header {
 
   background-color: var(--brown);
   color: var(--white);
-}
-
-.premature-optimization h2 {
-  color: var(--main);
 }
 
 .text-white {
