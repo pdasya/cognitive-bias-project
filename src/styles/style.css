@@ -345,6 +345,11 @@ header {
   position: relative;
 
   background-color: var(--brown);
+  color: var(--white);
+}
+
+.premature-optimization h2 {
+  color: var(--main);
 }
 
 .text-white {
