@@ -1,0 +1,81 @@
+@import 'variables';
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Neucha;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bvug.ttf") format("truetype");
+  }
+  
+  html,
+  body {
+    color: $dark;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: normal;
+    font-family: Neucha, cursive;
+    line-height: 1.2em;
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+  
+  h2 {
+    font-size: 60px;
+  }
+  
+  h3 {
+    font-size: 34px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    color: $dark;
+  }
+
+  .container {
+    position: relative;
+  
+    width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .text-center {
+    text-align: center;
+  }

@@ -1,0 +1,78 @@
+@import 'variables';
+@import 'general';
+
+header {
+    position: relative;
+  }
+  
+  .background::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 100%;
+  
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    content: "";
+  }
+  
+  .header {
+    overflow: hidden;
+  
+    background-color: $light;
+
+    &-title {
+        position: relative;
+        z-index: 1;
+  
+        color: $main;
+
+        &-span {
+            z-index: 3;
+            color: $dark;
+        }
+    }
+
+    &-img {
+        position: absolute;
+        top: 55px;
+        right: -270px;
+        height: 525px;
+    }
+
+    &-content-text {
+        position: relative;
+  
+        display: grid;
+        grid-template-columns: 540px 540px;
+        gap: 30px;
+        margin-top: 202px;
+    }
+
+    &-button {
+        grid-column: 2;
+        width: 100px;
+        height: 25px;
+        margin-top: 5px;
+        padding: 12px 24px;
+  
+        color: $white;
+        font-weight: bold;
+        text-align: center;
+  
+        text-transform: uppercase;
+  
+        background-color: $main;
+  
+        transition: all 0.2s linear;
+
+        &:hover {
+            background-color: #ea7600;
+        }
+    }
+  }
+  

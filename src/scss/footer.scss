@@ -1,0 +1,91 @@
+@import 'variables'; 
+@import 'general'; 
+
+.footer {
+    background-color: $white;
+
+    &-info {
+        display: flex;
+        align-items: center;
+        background-color: $main-dark;
+    }
+
+    &-title {
+        margin: 55px 122px 55px 55px;
+        color: $white;
+        line-height: 120%;
+    }
+  }
+
+  .form {
+    color: $white;
+    
+    &-your-email {
+        margin-bottom: 9px;
+        color: $white;
+        font-size: 18px;
+    }
+
+    &-sup-input {
+        font-size: 12px;
+    }
+
+    &-link {
+        color: $white;
+        text-decoration: revert;
+    }
+
+    &-input {
+        position: absolute;
+        box-sizing: border-box;
+        width: 423px;
+        height: 50px;
+        padding: 15px;
+        border: 1px solid #e2e2e2;
+    }
+
+    &-btn {
+        position: relative;
+        width: 70px;
+        height: 50px;
+        left: 165%;
+        cursor: pointer;
+        border: none;
+
+        &:hover::before {
+            background-color: #ea7600;
+        }
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;  
+            width: 70px;
+            height: 50px;
+  
+            background: url("../images/send.svg") center center no-repeat;
+            background-color: #fe8a02;
+  
+            transition: all 0.2s linear;
+  
+            content: "";
+        }
+    }
+  }
+  
+  
+  .contact-information {
+    margin-top: 60px;
+    font-size: 14px;
+
+    a {
+        text-decoration: revert;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+  }
+
+  
+ 
